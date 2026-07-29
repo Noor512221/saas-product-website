@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar.jsx';
-import Home from './Pages/Home.jsx';
-import Pricing from './Pages/Pricing.jsx';
-import Calculator from './Pages/Calculator.jsx';
-import Contact from './Pages/Contact.jsx';
+import Navbar from './components/Navbar.jsx';
+import Home from './pages/Home.jsx';
+import Pricing from './pages/Pricing.jsx';
+import Calculator from './pages/Calculator.jsx';
+import Contact from './pages/Contact.jsx';
 
 export default function App() {
   return (
